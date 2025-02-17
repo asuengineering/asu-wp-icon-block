@@ -32,6 +32,6 @@ define( 'ASUWP_ICONS', plugin_dir_path( __FILE__ ) );
 add_action( 'enqueue_block_editor_assets', 'pitchfork_register_tib_asu_icons' );
 function pitchfork_register_tib_asu_icons() {
 
-	wp_enqueue_script ( 'tib_asu_icons', get_template_directory_uri() . '/dist/js/register-asu-icons.js', array( 'wp-i18n', 'wp-hooks', 'wp-dom' ), null, true);
+	wp_enqueue_script ( 'tib_asu_icons', plugin_dir_url( __FILE__ ) . '/dist/js/register-asu-icons.js', array( 'wp-i18n', 'wp-hooks', 'wp-dom' ), null, true);
 
 }
