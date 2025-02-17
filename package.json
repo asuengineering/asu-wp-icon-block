@@ -1,11 +1,10 @@
 {
-  "name": "pitchfork-plugin-template",
-  "description": "An ASU Engineering plugin, designed for use with the Pitchfork theme.",
+  "name": "asu-wp-icon-block",
+  "description": "Adds the ASU Awesome icon library as an extension of The Icon Block by Nick Diego",
   "version": "0.0.1",
-  "repository": "asuengineering/pitchfork-plugin-template",
+  "repository": "asuengineering/asu-wp-icon-block",
   "license": "MIT",
   "dependencies": {
-    "gulp-wp": "^0.6.9",
-    "@asu/unity-bootstrap-theme": "^1.7.6"
+    "gulp-wp": "^0.6.9"
   }
 }
