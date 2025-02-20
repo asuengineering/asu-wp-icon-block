@@ -1,8 +1,6 @@
 # Pitchfork Plugin
 
-A plugin for use with the [Pitchfork theme](https://github.com/asuengineering/pitchfork) for WordPress.
-
-This plugin adds blocks and block patterns for the block editor consistent with the ASU Unity Design system for web standards.
+This plugin extends The Icon Block to include icons from the ASU Awesome icon library.
 
 Requires at least: WP 6.0
 Tested up to: 6.0
@@ -20,22 +18,18 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 - Download the lastest release from Github.
 - Install in the normal WP location for plugins which is typically `/wp-content/plugins`.
 
-**Recommended / Required Additional Plugins**
+**Required Additional Plugins**
 
-This plugin contains blocks that are constructed with the use of Advanced Custom Fields Pro.
+This plugin will require the "parent" plugin called [The Icon Block](https://wordpress.org/plugins/icon-block/) to be active on the site before it can also be activated.
 
-- The ACF Pro plugin is also required by the Pitchfork theme.
-- The theme contains a script which will prompt the user to install this plugin upon theme activation.
-- ASU Engineering provides a licensed copy of this plugin within its standard distribution of WordPress on the Pantheon hosting platform.
+Once both plugins are activated, users will be able to insert an icon from the ASU Awesome icon library into their project.
 
 Plugin updates can optionally be managed from the admin dashboard through the use of [Git Updater](https://git-updater.com/).
-
-## Includes
 
 ## Development
 
 - Run `npm install` and `composer install` prior to local development.
-- SASS and JS compile & watch tasks are triggered via WP-Gulp and `npm start` from the project root.
+- SASS and JS compile & watch tasks are triggered via WP-Gulp and `npx gulp-wp` from the project root.
 
 ## Release Notes
 

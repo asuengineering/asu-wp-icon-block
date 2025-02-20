@@ -5,7 +5,7 @@
  * Description:     Adds the ASU Awesome icon library as an extension of The Icon Block by Nick Diego.
  * Author:          ASU Engineering
  * Author URI:      https://github.com/asuengineering/asu-wp-icon-block
- * Version:         0.0.1
+ * Version:         1.0.0
  *
  * Requires Plugins: icon-block
  *

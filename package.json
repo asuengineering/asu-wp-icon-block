@@ -1,7 +1,7 @@
 {
   "name": "asu-wp-icon-block",
   "description": "Adds the ASU Awesome icon library as an extension of The Icon Block by Nick Diego",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "repository": "asuengineering/asu-wp-icon-block",
   "license": "MIT",
   "dependencies": {
